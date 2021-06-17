@@ -48,7 +48,7 @@ public class TestCRUDOps {
 		// 2. Update the place address - PUT place API
 		// Integrating the API with common JSON Response values
 		System.out.println("******** PUT Method / assert status code and updated address **********");
-		String  newAddtoUpdate = "API Automation World Avenue 1A";
+		String  newAddtoUpdate = "TestAPI Automation World Avenue 1A";
 		
 		given().log().all().queryParam("key", "qaclick123")
 		.header("Content-Type", "application/json")
